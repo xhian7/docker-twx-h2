@@ -1,0 +1,40 @@
+{
+    "PlatformSettingsConfig": {
+        "AdministratorUserSettings": {
+            "InitialPassword": "Th!ngWorxS3cure"
+        },
+        "LicensingConnectionSettings": {
+            "username": "yourPTCUserAccount",
+            "password": "yourPassword"
+        },
+        "ContentTypeSettings": {
+            "supportedMediaEntityContentTypes": [
+                "image/svg+xml",
+                "image/png",
+                "image/gif",
+                "image/bmp",
+                "image/jpeg",
+                "application/pdf",
+                "image/vnd.microsoft.icon"
+            ]
+        },
+        "ExtensionPackageImportPolicy": {
+            "importEnabled": true,
+            "allowJarResources": true,
+            "allowJavascriptResources": true,
+            "allowCSSResources": true,
+            "allowJSONResources": true,
+            "allowWebAppResources": true,
+            "allowEntities": true,
+            "allowExtensibleEntities": true
+        }
+    },
+    "PersistenceProviderPackageConfigs": {
+        "H2PersistenceProviderPackage": {
+            "ConnectionInformation": {
+                "password": "S0meth!ngS3curE",
+                "username": "twadmin"
+            }
+        }
+    }
+}
